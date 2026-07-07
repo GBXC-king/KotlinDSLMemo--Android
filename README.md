@@ -1,2 +1,2 @@
-# AI--Android
-otlinDSLMemo 是一款基于 Jetpack Compose 的 Android 备忘录类应用，核心功能包括：笔记记录、账本管理（多账本+流水）、记忆卡片、闹钟提醒、AI 智能体聊天（支持 DeepSeek/智谱 GLM/阿里云 DashScope 三大供应商及多模态附件识别）、基于 ReAct 范式与无障碍服务的手机自动控制（用户一句话即可完成多步任务）、影视搜索与观看记录管理，以及内置集成广告拦截、反指纹、反钓鱼、视频播放隔离四大能力的浏览器。
+# KotlinDSLMemo--Android
+KotlinDSLMemo 是一款基于 Jetpack Compose 的 Android 备忘录类应用，核心功能包括：笔记记录、账本管理（多账本+流水）、记忆卡片、闹钟提醒、AI 智能体聊天（支持 DeepSeek/智谱 GLM/阿里云 DashScope 三大供应商及多模态附件识别）、基于 ReAct 范式与无障碍服务的手机自动控制（用户一句话即可完成多步任务）、影视搜索与观看记录管理，以及内置集成广告拦截、反指纹、反钓鱼、视频播放隔离四大能力的浏览器。
