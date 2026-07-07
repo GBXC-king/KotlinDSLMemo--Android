@@ -1,0 +1,145 @@
+! 备忘录浏览器广告过滤规则 - 网络层（基于 EasyList 语法精简）
+! 注释以 ! 开头
+! 语法：
+!   ||domain^          拦截该域名（含子域）所有请求
+!   ||domain^$third-party  仅拦截跨站请求
+!   /path/regex        路径正则
+!   @@||domain^        例外（白名单，放行）
+!
+! ===== 国际广告联盟 / 跟踪 =====
+||doubleclick.net^
+||googlesyndication.com^
+||googletagservices.com^
+||googletagmanager.com^
+||google-analytics.com^
+||googleadservices.com^
+||adservice.google.com^
+||adnxs.com^
+||pubmatic.com^
+||rubiconproject.com^
+||openx.net^
+||criteo.com^
+||criteo.net^
+||taboola.com^
+||outbrain.com^
+||mgid.com^
+||propellerads.com^
+||adsterra.com^
+||popads.net^
+||popcash.net^
+||adcash.com^
+||admob.com^
+||facebook.com/tr^
+||facebook.net/tr^
+||connect.facebook.net^
+||analytics.yahoo.com^
+||scorecardresearch.com^
+||quantserve.com^
+||hotjar.com^
+||mixpanel.com^
+||amplitude.com^
+||segment.io^
+||newrelic.com^
+||sentry.io^
+||mouseflow.com^
+||fullstory.com^
+||optimizely.com^
+||cdn.mxpnl.com^
+||bat.bing.com^
+||adsystem.amazon.com^
+||amazon-adsystem.com^
+||ads.yahoo.com^
+||advertising.com^
+||moatads.com^
+||doubleclick.com^
+||media.net^$third-party
+||adform.net^$third-party
+||casalemedia.com^$third-party
+||yieldmo.com^$third-party
+||33across.com^$third-party
+
+! ===== 统计 / 监控 =====
+||cnzz.com^
+||umeng.com^
+||umengcloud.com^
+||talkingdata.com^
+||talkingdata.net^
+||jiguang.cn^
+||baidu.com/cpro
+||baidu.com/baidu.php
+||eclick.baidu.com^
+||hm.baidu.com^
+||tanx.com^
+||alimama.com^
+||alibaba.com/atrk
+||gdt.qq.com^
+||e.qq.com^
+||adview.com^
+||madserving.com^
+||adsage.cn^
+||miaozhen.com^
+||sensorsdata.cn^
+||sensorsdata.com^
+
+! ===== 成人 / 赌博 / 博彩（影视站常带） =====
+||pornhub.com^
+||xvideos.com^
+||xnxx.com^
+||xhamster.com^
+||redtube.com^
+||youporn.com^
+||brazzers.com^
+||onlyfans.com^
+||livejasmin.com^
+||stripchat.com^
+||chaturbate.com^
+||bongacams.com^
+||bet365.com^
+||williamhill.com^
+||betway.com^
+||1xbet.com^
+||pokerstars.com^
+||888casino.com^
+||casino.com^
+||gambling.com^
+
+! ===== 弹窗 / 跳转 / 流氓广告 =====
+||popunder.com^
+||popunder.net^
+||popunder.js^$script
+||clickadu.com^
+||clickaine.com^
+||clickbait.com^
+||redirect.com^
+||tracking.com^
+||tracker.com^
+||trackersimulator.com^
+
+! ===== 影视站常见第三方广告 CDN =====
+||fastcdn.cc^
+||fastcdn.com^
+||adv-ads.com^
+||adcdn.com^
+||ad-cdn.com^
+||cdn-ad.com^
+||adserver.com^
+||adsrvr.org^
+||adcolony.com^
+||applovin.com^
+||unity3d.com/ads^
+||chartbeat.com^
+||parsely.com^
+
+! ===== 一点资讯 / Yidian 广告 CDN（freeokk 等影视站常用） =====
+||go2yd.com^
+||i1.go2yd.com^
+||i2.go2yd.com^
+||i3.go2yd.com^
+||ydopimg.yidian-inc.com^
+||yidian.com/pic^
+||yidian.com/ads^
+||ydadvertising.com^
+
+! ===== 例外：放行常用国内站点统计（避免误伤） =====
+@@||hm.baidu.com/hm.js
+@@||wa.qq.com^

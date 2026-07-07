@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinDSLMemo</string>
+    <string name="accessibility_service_description">智能助手无障碍服务，用于AI自动操控手机应用，帮助用户完成各种操作。需要此权限才能获取屏幕内容和模拟点击操作。</string>
+</resources>

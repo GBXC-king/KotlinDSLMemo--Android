@@ -1,0 +1,72 @@
+! 备忘录浏览器 - 安全护盾：恶意/钓鱼 URL 库
+! 格式：纯域名，一行一个（不写协议）
+! 命中后 SecurityShield 会拦截导航并展示告警页
+!
+! 体积小只列已知高危域名；后续可对接 PhishTank / Google Safe Browsing 本地版
+!
+! ===== 已知钓鱼 =====
+paypal-secure-login.com
+paypa1.com
+amaz0n-security.com
+apple-id-verify.com
+icloud-security-alert.com
+netflix-billing-update.com
+google-account-recovery.com
+microsoft-365-verify.com
+whatsapp-verification-code.com
+taobao-secure-center.com
+alipay-verify-account.com
+wechat-security-check.com
+jd-secure-login.com
+chinapay-secure.com
+icbc-online-verify.com
+cmb-secure-update.com
+bank-of-china-verify.com
+ccb-secure-login.com
+abc-online-verify.com
+boc-secure-update.com
+
+! ===== 已知恶意软件分发 =====
+malware-test-domain.com
+trojan-download-center.com
+phishing-kit-host.com
+fake-flash-player.com
+fake-browser-update.com
+fake-java-update.com
+fake-antivirus-alert.com
+your-computer-is-infected.com
+windows-pc-cleaner-now.com
+mcafee-renew-now.com
+norton-security-renewal.com
+kaspersky-activate-now.com
+
+! ===== 已知挖矿脚本站点 =====
+cryptoloot-miner.com
+coinhive-replica.com
+webmine.cz-replica.com
+deepminer-js.com
+jsecoin-replica.com
+
+! ===== 已知诈骗/假冒 404 =====
+click-here-to-win-iphone.com
+you-have-been-selected.com
+claim-your-prize-now.com
+lucky-draw-winner.com
+free-netflix-premium.com
+free-spotify-premium.com
+free-amazon-gift.com
+free-steam-gift.com
+
+! ===== 已知病毒外链 =====
+bit.ly/shortcuts-to-malware
+tinyurl.com/malicious-payload
+goo.gl/malware-distribution
+ow.ly/malicious-download
+
+! ===== 影视站 link.php 跳转解码后的真实恶意目标 =====
+9hp.top
+u9bbbb.com
+wedsdxcfvfgtygh.hongguotuiguang.xn--8prq9vcyf0zbi66akfl88adym.com
+90hp.top
+wedsdxcfvfgtygh
+hongguotuiguang.xn--8prq9vcyf0zbi66akfl88adym.com

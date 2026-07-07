@@ -1,0 +1,307 @@
+! 备忘录浏览器 - 美化过滤规则（CSS 选择器形式）
+! 语法：
+!   ##selector         通用规则，全站生效
+!   domain##selector   仅在该域名生效
+!
+! ===== 通用广告容器（所有站点） =====
+##.ad
+##.ads
+##.ad-container
+##.ad-wrapper
+##.ad-box
+##.ad-banner
+##.ad-block
+##.ad-zone
+##.ad-area
+##.ad-section
+##.ad-content
+##.ad-top
+##.ad-bottom
+##.ad-left
+##.ad-right
+##.ad-center
+##.ad-header
+##.ad-footer
+##.ad-body
+##.ad-popup
+##.ad-popunder
+##.ad-float
+##.ad-layer
+##.ad-slot
+##.ad-placeholder
+##.ad-placeholder-wrapper
+##.ad-iframe
+##.ad-image
+##.ad-text
+##.ad-link
+##.ad-title
+##.ad-desc
+##.ad-label
+##.ad-badge
+##.ad-cta
+##.ad-btn
+##.ad-button
+##.ad-close
+##.ad-open
+##.ad-overlay
+##.ad-modal
+##.ad-dialog
+##.ad-notice
+##.ad-tip
+##.ad-tips
+##.ad-hint
+##.ad-prompt
+##.ad-marquee
+##.ad-scroll
+##.ad-slide
+##.ad-slider
+##.ad-carousel
+##.ad-strip
+##.ad-row
+##.ad-column
+##.ad-cell
+##.ad-grid
+##.ad-list
+##.ad-item
+##.ad-item-list
+##.ad-entry
+##.ad-entry-list
+##.ad-recommend
+##.ad-recommendation
+##.ad-related
+##.ad-suggest
+##.ad-suggestion
+##.ad-promo
+##.ad-promotion
+##.ad-push
+##.ad-sponsor
+##.ad-sponsored
+##.ad-sponsored-content
+##.ad-native
+##.ad-native-banner
+##.ad-native-feed
+##.ad-feed
+##.ad-frame
+##.ad-iframe-wrap
+##.ad-iframe-wrapper
+##.ad-wrap
+##.ad-warp
+##.ad-warpper
+##.ad-box-wrap
+##.ad-box-wrapper
+##.ad-banner-wrap
+##.ad-banner-wrapper
+##.ad-popup-wrap
+##.ad-popup-wrapper
+##.ad-close-btn
+##.ad-close-button
+##.ad-skip
+##.ad-skip-btn
+##.ad-skip-button
+##.ad-countdown
+##.ad-skip-countdown
+##.ad-pre
+##.ad-preroll
+##.ad-midroll
+##.ad-postroll
+##.ad-pause
+##.ad-paused
+##.ad-pause-ad
+##.ad-pause-banner
+##.ad-cube
+##.ad-cube-box
+##.ad-cube-wrap
+##.ad-cube-wrapper
+##.ad-google
+##.ad-adsense
+##.ad-adword
+##.ad-baidu
+##.ad-tencent
+##.ad-tanx
+##.ad-alimama
+
+! 通用属性匹配
+##div[class^="ad-"]
+##div[class*=" ad-"]
+##div[class*="-ad-"]
+##div[class*="_ad_"]
+##div[class^="ads-"]
+##div[class*=" ads-"]
+##div[id^="ad-"]
+##div[id*=" ad-"]
+##div[id*="-ad-"]
+##div[id^="ads-"]
+##div[id*=" ads-"]
+##div[class*="advert"]
+##div[id*="advert"]
+##div[class*="banner"]
+##div[class*="sponsor"]
+##div[class*="promo"]
+##div[class*="popup"]
+##div[class*="popunder"]
+##iframe[src*="ads"]
+##iframe[src*="ad-"]
+##iframe[src*="popup"]
+##iframe[src*="popunder"]
+##img[src*="ads"]
+##img[src*="ad-"]
+##img[src*="popup"]
+##a[href*="ads"]
+##a[href*="ad-"]
+##a[href*="popup"]
+
+! 浮窗 / 弹窗 / 蒙层
+##.popup
+##.popover
+##.modal
+##.modal-ad
+##.float-ad
+##.floating-ad
+##.sticky-ad
+##.top-ad
+##.bottom-ad
+##.notice-ad
+##.tips-ad
+##.marquee-ad
+##.layer
+##.layer-content
+##.dialog
+##.dialog-content
+##.dialog-body
+##.dialog-footer
+##.overlay
+##.overlay-content
+##.lightbox
+##.lightbox-ad
+##.shadow
+##.shadow-ad
+
+! freeokk 站内置广告（开发者写在 HTML 里的，非第三方请求）
+freeokk.pro##.module-adslist
+freeokk.pro##.module-adslist.module-wrapper
+freeokk.pro##.player-rm
+freeokk.pro##.player-rm-rmtwo-rlist
+freeokk.pro##.player-rm.rm-two
+freeokk.pro##.player-rm.rm-list
+freeokk.pro##.player-rm.rm-two.rm-list
+freeokk.pro##.module-ads
+freeokk.pro##.ads-box
+freeokk.pro##.ads-list
+freeokk.pro##.ad-box
+freeokk.pro##.ad-list
+freeokk.pro##.ad-right
+freeokk.pro##.ad-left
+freeokk.pro##.ad-top
+freeokk.pro##.ad-bottom
+freeokk.pro##.text-ad
+freeokk.pro##.pic-ad
+freeokk.pro##.banner-ad
+freeokk.pro##.float-ad
+freeokk.pro##.popup-ad
+freeokk.pro##.recommend-list
+freeokk.pro##.recommend-box
+freeokk.pro##.hot-search
+freeokk.pro##.hot-list
+freeokk.pro##.side-ad
+freeokk.pro##.right-ad
+freeokk.pro##.left-ad
+freeokk.pro##.top-banner
+freeokk.pro##.bottom-banner
+freeokk.pro##.middle-banner
+freeokk.pro##.index-ad
+freeokk.pro##.content-ad
+freeokk.pro##.player-ad
+freeokk.pro##.video-ad
+freeokk.pro##.ad-wrap
+freeokk.pro##.ad-warpper
+freeokk.pro##.ad-overlay
+freeokk.pro##.google-ad
+freeokk.pro##.baidu-ad
+freeokk.pro##.tencent-ad
+freeokk.pro##.adsbygoogle
+freeokk.pro##ins.adsbygoogle
+freeokk.pro##div[class^="ad "]
+freeokk.pro##div[class*=" ad "]
+freeokk.pro##div[class^="ads "]
+freeokk.pro##div[class*=" ads "]
+freeokk.pro##div[id^="ad-"]
+freeokk.pro##div[id^="ads-"]
+
+! freeokk 站 /link.php?u= 跳转广告（base64 编码的外链）
+! link.php 是站内跳转脚本，本身是合法的；但配合 target=_blank 和外链通常是广告
+freeokk.pro##a[href^="/link.php?u="]
+freeokk.pro##a[href*="link.php?u="]
+freeokk.pro##a[href*="link.php?u="][target="_blank"]
+freeokk.pro##a[href^="/link.php?u="] img
+freeokk.pro##a[href*="/link.php?u="] img
+
+! freeokk 站 go2yd.com 广告图片（一点资讯广告系统）
+freeokk.pro##img[src*="go2yd.com"]
+freeokk.pro##img[src*="yd_qualify"]
+freeokk.pro##img[src*="YD_qualify"]
+freeokk.pro##img[alt="5.16"]
+freeokk.pro##img[alt="5.19"]
+freeokk.pro##img[alt="6.6"]
+freeokk.pro##img[alt="7.10"]
+freeokk.pro##img[alt="4.10"]
+freeokk.pro##img[alt^="5."]
+freeokk.pro##img[alt^="6."]
+freeokk.pro##img[alt^="7."]
+freeokk.pro##img[alt^="8."]
+freeokk.pro##img[alt^="9."]
+
+! freeokk 站 gg-icon 广告标识
+freeokk.pro##i.gg-icon
+freeokk.pro##.gg-icon
+freeokk.pro##[class*="gg-icon"]
+
+! freeokk 站带 border-radius:7px 的内联样式广告容器
+freeokk.pro##div[style*="border-radius:7px"]
+freeokk.pro##div[style*="border-radius: 7px"]
+
+! 通用广告链接模式（所有站点）
+##a[href*="link.php?u="]
+##img[src*="go2yd.com"]
+##img[src*="yd_qualify"]
+##i[class*="gg-icon"]
+##div[style*="border-radius:7px"]
+
+! 通用站点播放器侧边广告（开发者内置）
+##.player-sidebar
+##.player-ads
+##.player-ad
+##.player-rm-list
+##.player-rm-rlist
+##.player-side
+##.player-rm
+##.player-related
+##.player-recommend
+##.player-extra
+##.player-pause-ad
+##.video-ads
+##.video-ad
+##.video-pause-ad
+##.v-ad
+##.v-ads
+##.pausable-ad
+##.overlay-ad
+##.ima-ad-container
+##.ima-ad
+##.ytp-ad
+##.ytp-ad-overlay-container
+##.ytp-ad-text
+##.ytp-ad-image
+##.ytp-ad-progress
+##.ytp-ad-progress-list
+##.ytp-ad-skip
+##.ytp-ad-skip-button
+##.ytp-ad-skip-button-text
+
+! 误伤风险：保留 body / 播放器本身
+! ##body    <- 不屏蔽
+! ##.player-box-main  <- 白名单由 PlayerIsolator 处理
+
+! 例外：不要在某些站隐藏 .ad（可能是正文引用）
+~github.com##.ad
+~stackoverflow.com##.ad
+~developer.android.com##.ad

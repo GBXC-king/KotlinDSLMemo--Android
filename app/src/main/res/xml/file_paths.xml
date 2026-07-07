@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 拍照临时文件目录：放在应用缓存的 images 子目录，避免占用共享存储 -->
+    <cache-path
+        name="cache_images"
+        path="images/" />
+    <!-- 应用专属外部存储：与 FileProvider.getUriForFile 配合返回 content:// URI -->
+    <external-files-path
+        name="external_files"
+        path="." />
+    <!-- 通用外部存储（仅 API ≤ 28 兼容） -->
+    <external-path
+        name="external"
+        path="." />
+</paths>
