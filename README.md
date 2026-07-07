@@ -98,14 +98,6 @@ QQ/163/Gmail 等邮箱的"授权码"是专门为第三方登录（如 SMTP、IMA
 
 默认 `qwen3.5-omni-plus-2026-03-15`（全模态）仅在 **OpenAI 兼容模式** 下可用。旧版 `liveportrait` 模型已废弃，App 启动时会自动迁移。
 
-### 6. 调试模式
-
-若需打印当前生效的 Key 用于排查（**仅调试用**），可在 `AppConfig.kt` 中临时加：
-
-```kotlin
-Log.d("AppConfig", "dskApiKey=$dskApiKey")
-```
-
 ---
 
 ## 项目功能一览
